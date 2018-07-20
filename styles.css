@@ -28,3 +28,14 @@ p {
   border-style: solid;
   border-color: red;
 }
+
+@media (min-width: 600px) {
+  #mainpage::before {
+    content: "Welcome to "
+  }
+}
+@media (max-width: 599px) {
+  #mainpage::before {
+    content: "Wow "
+  }
+}
