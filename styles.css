@@ -5,3 +5,26 @@ body {
 h1 {
   color: white;
 }
+
+p {
+  color: red;
+}
+
+#hugelkultur {
+  font-size: 12;
+  color: red;
+}
+
+#hugelkultur:hover {
+  background:blue;
+}
+
+.project {
+  font-size: 12;
+  color: lightblue;
+}
+
+.border {
+  border-style: solid;
+  border-color: red;
+}
